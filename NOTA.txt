@@ -1,0 +1,13 @@
+NOTA:
+
+He cambiado mi proyecto web ya que preferi continuar con la temática salud.
+En este dashboard se podrá acceder a todo nuestro plan de salud, historia clínica, clinicas asociadas, farmacias y tambien a las últimas noticias/redes sociales que hablen sobre la misma.
+También acceder a Welbin y otros similares que atienden información en la nube (según cobertura de salud) sobre estudios medicos de imágenes y de laboratorio.
+
+El sitio tiene opción de light/dark y comencé con javascript para tal fin, asi como @mediaqueires. y a tener una arquitectura de CSS para poder comenzar con SASS
+
+No he podido aún ver tema de GIT ya que me encuentro de vacaciones con mi familia. 
+A mi regreso ya tendre mi GIT activo y continuar con el desarrollo del sitio.
+
+Muchas Gracias!
+Diamela Heindl
