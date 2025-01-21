@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DASHBOARD SALUD</title>
+  <!-- MATERIAL CDN -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+  <!-- STYLESHEET -->
+  <link rel="stylesheet" href="./css/style.css">  
+</head>
+<body>
+
+  <div class="container">
+    <aside>
+      <div class="top">
+        <div class="logo">
+          <img src="./img/logo_01.png">
+          <h2>Cuid<span class="notice">Arte</span></h2>
+        </div>
+        <div class="close" id="close-btn">
+          <span class="material-symbols-outlined">close</span>
+        </div>
+      </div>
+
+        <!-- SIDEBAR -->
+         <div class="sidebar">
+          <a href="#" class="active">
+            <span class="material-symbols-outlined">dashboard</span>
+            <h3>Dashboard</h3>
+          </a>
+          <a href="#" >
+            <span class="material-symbols-outlined">medical_information</span>
+            <h3>Cobertura Médica</h3>
+          </a>
+          <a href="#">
+            <span class="material-symbols-outlined">
+              clinical_notes
+              </span>
+            <h3>Historia Clínica</h3>
+          </a>
+          <a href="#">
+            <span class="material-symbols-outlined">groups</span>
+            <h3>Médicos</h3>
+          </a>
+          <a href="#">
+            <span class="material-symbols-outlined">prescriptions</span>
+            <h3>Mensajes</h3>
+            <span class="message-count">15</span>
+          </a>
+          <a href="#">
+            <span class="material-symbols-outlined">medication</span>
+            <h3>Farmacias</h3>
+          </a>
+          <a href="#">
+            <span class="material-symbols-outlined">ambulance</span>
+            <h3>EMERGENCIA</h3>
+          </a>
+          <a href="#">
+            <span class="material-symbols-outlined">settings</span>
+            <h3>Configuración</h3>
+          </a>
+          <a href="#">
+            <span class="material-symbols-outlined">logout</span>
+            <h3>Cerrar Sesión</h3>
+          </a>
+         </div>
+      
+    </aside>
+    <!------- FIN ASIDE ------->
+    <main>
+      <h1>Dashboard</h1>
+
+      <div class="date">
+        <input type="date">
+      </div>
+
+      <div class="insights">
+        <div class="cobertura-medica">
+          <span class="material-symbols-outlined">badge</span>
+          <div class="middle">
+            <div class="left">
+              <h3>PAMI</h3>
+              <h1>Credencial</h1>
+            </div>
+            <div class="text-muted">Actualizada</div>
+          </div>
+        </div>
+        <!-- FIN COBERTURA MÉDICA-->
+        <div class="emergencias">
+          <span class="material-symbols-outlined">ambulance</span>
+          <div class="middle">
+            <div class="left">
+              <h3>Centro Gallego BsAs</h3>
+              <h1>Emergencias</h1>
+            </div>
+            <div class="text-muted">Más Hospitales...</div>
+          </div>
+        </div>
+        <!-- FIN CITAS MÉDICAS -->
+        <div class="wellbin">
+          <span class="material-symbols-outlined">clinical_notes</span>
+          <div class="middle">
+            <div class="left">
+              <h3>Estudios/Laboratorios</h3>
+              <h1>Wellbin</h1>
+            </div>
+            <div class="text-muted">Actualizado</div>
+          </div>
+        </div>
+        <!-- FIN CITAS MÉDICAS -->
+      </div>
+      <!-- FIN INSIGHTS -->
+
+      <div class="citas-medicas">
+        <h2>Citas Médicas</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Doctor/a</th>
+              <th>Especialidad</th>
+              <th>Estado</th>
+              <th>Fecha</th>
+              <th>Hora</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Dra.Lorem</td>
+              <td>Médica clínica</td>
+              <td class="warning">Activa</td>
+              <td>01/02/2025</td>
+              <td>10:30hs</td>
+              <td class="primary">Detalles</td>
+            </tr>
+            <tr>
+              <td>Dra.Lorem</td>
+              <td>Médica clínica</td>
+              <td class="warning">Activa</td>
+              <td>01/02/2025</td>
+              <td>10:30hs</td>
+              <td class="primary">Detalles</td>
+            </tr>
+            <tr>
+              <td>Dra.Lorem</td>
+              <td>Médica clínica</td>
+              <td class="warning">Activa</td>
+              <td>01/02/2025</td>
+              <td>10:30hs</td>
+              <td class="primary">Detalles</td>
+            </tr>
+            <tr>
+              <td>Dra.Lorem</td>
+              <td>Médica clínica</td>
+              <td class="warning">Activa</td>
+              <td>01/02/2025</td>
+              <td>10:30hs</td>
+              <td class="primary">Detalles</td>
+            </tr>
+            <tr>
+              <td>Dra.Lorem</td>
+              <td>Médica clínica</td>
+              <td class="warning">Activa</td>
+              <td>01/02/2025</td>
+              <td>10:30hs</td>
+              <td class="primary">Detalles</td>
+            </tr>
+          </tbody>
+        </table>
+        <a href="#">Mostrar todas...</a>
+      </div>
+    </main>
+    <!-- FIN MAIN -->
+
+    <div class="right">
+      <div class="top">
+        <button id="menu-btn">
+          <span class="material-symbols-outlined">menu</span>
+        </button>
+        <div class="theme-toggler">
+          <span class="material-symbols-outlined active">light_mode</span>
+          <span class="material-symbols-outlined">dark_mode</span>
+        </div>
+        <div class="profile">
+          <div class="info">
+            <p>Hola, <b>Diamela</b></p>
+            <small class="text-muted">Administradora</small>
+          </div>
+          <div class="profile-photo">
+            <img src="./img/profile-1.png">
+          </div>
+        </div>
+      </div>
+      <!-- FIN TOP -->
+       <div class="redes-sociales">
+        <h2>Actualidad</h2>
+        <div class="redes">
+          <div class="red">
+            <div class="profile-photo">
+              <img src="./img/user.png">
+            </div>
+            <div class="message">
+              <p><b>María </b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <small class="text-muted">1 hora atrás</small>
+            </div>
+          </div>
+          <div class="red">
+            <div class="profile-photo">
+              <img src="./img/user.png">
+            </div>
+            <div class="message">
+              <p><b>María </b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <small class="text-muted">1 hora atrás</small>
+            </div>
+          </div>
+          <div class="red">
+            <div class="profile-photo">
+              <img src="./img/user.png">
+            </div>
+            <div class="message">
+              <p><b>María </b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <small class="text-muted">1 hora atrás</small>
+            </div>
+          </div>
+        </div>
+       </div>
+       <!-- FIN ACTUALIDAD / Redes Sociales -->
+        <div class="prestadores">
+          <h2>Prestadores</h2>
+           <div class="item labs">
+              <div class="icon">
+              <span class="material-symbols-outlined">labs</span>
+              </div>
+              <div class="right">
+                <div class="info">
+                 <h3>SANTAMARIA</h3>
+                 <small class="text-muted">Laboratorio - Pami</small>
+                </div>
+                 <h3>whatsapp</h3>
+              </div>
+            </div>
+            <div class="item medication">
+              <div class="icon">
+                <span class="material-symbols-outlined">medication</span>
+              </div>
+              <div class="right">
+                <div class="info">
+                 <h3>Farmacia AZUL </h3>
+                 <small class="text-muted"></small>
+                </div>
+                  <h3>whatsapp</h3>
+              </div>
+            </div>
+            <div class="item radiology">
+              <div class="icon">
+                <span class="material-symbols-outlined">radiology</span>
+              </div>
+              <div class="right">
+                <div class="info">
+                 <h3>Imágenes</h3>
+                 <small class="text-muted">Estudios</small>
+                </div>
+                 <h3>whatsapp</h3>
+              </div>
+            </div>
+            <div class="item agregar-prestador">
+              <div>
+                <span class="material-symbols-outlined">add</span>
+                <h3>Agregar</h3>
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./Js/index.js"></script>
+
+</body>
+</html>
